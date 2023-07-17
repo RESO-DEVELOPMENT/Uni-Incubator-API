@@ -1,0 +1,14 @@
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\bin\Release\net6.0-windows\Application.Domain.deps.json
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\bin\Release\net6.0-windows\Application.Domain.runtimeconfig.json
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\bin\Release\net6.0-windows\Application.Domain.dll
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\bin\Release\net6.0-windows\Application.Domain.pdb
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.csproj.AssemblyReference.cache
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.AssemblyInfoInputs.cache
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.AssemblyInfo.cs
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.csproj.CoreCompileInputs.cache
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.dll
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\refint\Application.Domain.dll
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.pdb
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\Application.Domain.genruntimeconfig.cache
+D:\FPTU\Projects\CSharp\CnbIncubator\Application.Domain\obj\Release\net6.0-windows\ref\Application.Domain.dll

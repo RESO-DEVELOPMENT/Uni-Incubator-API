@@ -1,0 +1,14 @@
+{
+  "redisXplorer.config": {
+    "profiles": [
+      {
+        "name": "Redis",
+        "host": "redis-11738.c299.asia-northeast1-1.gce.cloud.redislabs.com",
+        "accessKey": "IlaRkSLVruuwQvaV9aeJhmCApzefMe4a",
+        "filter": "*",
+        "port": "11738"
+      }
+    ],
+    "scanLimit": 200
+  }
+}

@@ -1,0 +1,15 @@
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/bin/Debug/net6.0/Application.Persistence.deps.json
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/bin/Debug/net6.0/Application.Persistence.dll
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/bin/Debug/net6.0/Application.Persistence.pdb
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/bin/Debug/net6.0/Application.Domain.dll
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/bin/Debug/net6.0/Application.Domain.pdb
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.csproj.AssemblyReference.cache
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.AssemblyInfoInputs.cache
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.AssemblyInfo.cs
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.csproj.CoreCompileInputs.cache
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.csproj.CopyComplete
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.dll
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/refint/Application.Persistence.dll
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/Application.Persistence.pdb
+D:/FPTU/Projects/CSharp/CnbIncubator/Application.Persistence/obj/Debug/net6.0/ref/Application.Persistence.dll

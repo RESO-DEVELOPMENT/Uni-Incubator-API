@@ -1,0 +1,5 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\FPTU\\Projects\\CSharp\\CnbIncubator\\Application",
+  "Application.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\FPTU\\Projects\\CSharp\\CnbIncubator\\Application.Domain",
+  "Application.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "d:\\FPTU\\Projects\\CSharp\\CnbIncubator\\Application.Persistence"
+}
