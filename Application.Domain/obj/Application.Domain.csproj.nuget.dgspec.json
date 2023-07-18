@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\Application.Domain.csproj": {}
+    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\Application.Domain.csproj": {
+    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\Application.Domain.csproj",
+        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj",
         "projectName": "Application.Domain",
-        "projectPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\Application.Domain.csproj",
-        "packagesPath": "C:\\Users\\minh2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\obj\\",
+        "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj",
+        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+        "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\minh2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

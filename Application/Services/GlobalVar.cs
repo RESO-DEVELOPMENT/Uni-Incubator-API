@@ -22,7 +22,7 @@ namespace Application.Services
     {
       string webRootPath = _webHostEnvironment.WebRootPath;
       string contentRootPath = _webHostEnvironment.ContentRootPath;
-      var path = contentRootPath + "\\systemConfig.json";
+      var path = contentRootPath + "systemConfig.json";
 
       var config = await File.ReadAllTextAsync(path);
       var json = JsonSerializer.Deserialize<SystemConfig>(config, new JsonSerializerOptions()

@@ -13,6 +13,7 @@
     <Optimize>False</Optimize>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'CnbIncubator' " />
   <ItemGroup>
     <Content Remove="appsettings.Testing.json" />
   </ItemGroup>
@@ -52,7 +53,8 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.29.0" />
 
     <InternalVisibleTo Include="Application.Testing" />
-    <InternalVisibleTo Include="Application.Test" />
+    <InternalVisibleTo Include="Application.Testing" />
+    <InternalVisibleTo Include="systemConfig.json" />
   </ItemGroup>
 
   <!--<ItemGroup>
@@ -110,6 +112,12 @@
 
   <ItemGroup>
     <None Update="uniLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="appsettings.Testing.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

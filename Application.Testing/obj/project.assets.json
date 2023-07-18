@@ -15287,34 +15287,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\minh2\\.nuget\\packages\\": {}
+    "/Users/nguyenduong/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Testing\\Application.Testing.csproj",
+      "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/Application.Testing.csproj",
       "projectName": "Application.Testing",
-      "projectPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Testing\\Application.Testing.csproj",
-      "packagesPath": "C:\\Users\\minh2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Testing\\obj\\",
+      "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/Application.Testing.csproj",
+      "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+      "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\minh2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application\\Application.csproj"
+            "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj": {
+              "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj"
             }
           }
         }
@@ -15406,7 +15404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

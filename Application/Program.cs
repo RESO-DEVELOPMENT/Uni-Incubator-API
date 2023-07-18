@@ -6,7 +6,7 @@ using Application.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container.z
 builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddCors();
 
@@ -20,7 +20,7 @@ builder.Services.AddControllers().AddJsonOptions(opts =>
 
   opts.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
 
-});
+}); 
 
 builder.Services.AddEndpointsApiExplorer();
 

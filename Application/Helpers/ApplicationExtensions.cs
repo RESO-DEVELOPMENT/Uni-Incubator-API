@@ -37,7 +37,7 @@ namespace Application.Helpers
 
             // Setup Firebase
             string firebaseCred = config.GetValue<string>("Authentication:FirebaseKey");
-            //string firebaseCred = config.GetValue<string>("AIzaSyCFJOGAnHOQaWntVhN1a16QINIAjVpWaXI");
+            // string firebaseCred = config.GetValue<string>("AIzaSyCFJOGAnHOQaWntVhN1a16QINIAjVpWaXI");
             FirebaseApp.Create(new AppOptions()
             {
                 Credential = GoogleCredential.FromJson(firebaseCred)

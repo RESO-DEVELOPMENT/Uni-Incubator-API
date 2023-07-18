@@ -3279,34 +3279,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\minh2\\.nuget\\packages\\": {}
+    "/Users/nguyenduong/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Persistence\\Application.Persistence.csproj",
+      "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj",
       "projectName": "Application.Persistence",
-      "projectPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Persistence\\Application.Persistence.csproj",
-      "packagesPath": "C:\\Users\\minh2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Persistence\\obj\\",
+      "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj",
+      "packagesPath": "/Users/nguyenduong/.nuget/packages/",
+      "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\minh2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\Application.Domain.csproj": {
-              "projectPath": "C:\\Users\\minh2\\OneDrive\\Desktop\\OJT_SU23\\Uni-Incubator-API\\Application.Domain\\Application.Domain.csproj"
+            "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj": {
+              "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj"
             }
           }
         }
@@ -3342,7 +3340,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }
