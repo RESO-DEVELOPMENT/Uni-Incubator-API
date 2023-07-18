@@ -55,12 +55,6 @@
     <InternalVisibleTo Include="Application.Test" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="appsettings.Testing.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
   <!--<ItemGroup>
     <Folder Include="Enums\Image\" />
     <Folder Include="Enums\Level\" />
