@@ -269,7 +269,7 @@ ServiceFabricBackup/
 *.ndf
 
 # Appsetting files
-**/appsettings*.json
+#**/appsettings*.json
 
 # Business Intelligence projects
 *.rdl.data
