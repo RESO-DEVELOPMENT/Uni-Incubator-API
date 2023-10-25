@@ -1,0 +1,11 @@
+{
+  "p1Equation": "{basePoint} * {workRealHour}",
+  "p2Equation": "({softSkill} * {hardSkill} * {workRealHour}) / 10",
+  "p3Equation": "{pointPerHour} * {workRealHour}",
+
+  "xpEquation": "{workHour} * 2",
+
+  "projectDuration": 180,
+  "voucherExpireDuration": 180,
+  "maxMemberSendPerMonthEquation": "{levelBasePoint} * 10000"
+}

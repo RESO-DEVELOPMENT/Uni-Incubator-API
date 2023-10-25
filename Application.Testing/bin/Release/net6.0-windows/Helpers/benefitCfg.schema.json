@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "Benefit",
+  "description": "Benefit Helper",
+  "type": "object",
+  "properties": {
+    "p1Equation": {
+      "description": "Equation for P1",
+      "type": "string"
+    },
+    "p2Equation": {
+      "description": "Equation for P2",
+      "type": "string"
+    },
+    "p3Equation": {
+      "description": "Equation for P3",
+      "type": "string"
+    }
+  },
+  "required": [
+    "p1Equation",
+    "p2Equation",
+    "p3Equation"
+  ]
+}

@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="M:Application.Helpers.ImageHelper.ResizeImage(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            Resize the image to the specified width and height.
+            </summary>
+            <param name="image">The image to resize.</param>
+            <param name="width">The width to resize to.</param>
+            <param name="height">The height to resize to.</param>
+            <returns>The resized image.</returns>
+        </member>
+        <member name="P:Application.Helpers.PaginationParams.PageNumber">
+            <summary>
+            Page Number
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Application.Helpers.PaginationParams.PageSize">
+            <summary>
+            Items in one page
+            </summary>
+            <value></value>
+        </member>
+        <member name="F:Application.Helpers.PasswordHasher.SaltSize">
+            <summary>
+            Size of salt.
+            </summary>
+        </member>
+        <member name="F:Application.Helpers.PasswordHasher.HashSize">
+            <summary>
+            Size of hash.
+            </summary>
+        </member>
+        <member name="M:Application.Helpers.PasswordHasher.Hash(System.String,System.Int32)">
+            <summary>
+            Creates a hash from a password.
+            </summary>
+            <param name="password">The password.</param>
+            <param name="iterations">Number of iterations.</param>
+            <returns>The hash.</returns>
+        </member>
+        <member name="M:Application.Helpers.PasswordHasher.Hash(System.String)">
+            <summary>
+            Creates a hash from a password with 10000 iterations
+            </summary>
+            <param name="password">The password.</param>
+            <returns>The hash.</returns>
+        </member>
+        <member name="M:Application.Helpers.PasswordHasher.IsHashSupported(System.String)">
+            <summary>
+            Checks if hash is supported.
+            </summary>
+            <param name="hashString">The hash.</param>
+            <returns>Is supported?</returns>
+        </member>
+        <member name="M:Application.Helpers.PasswordHasher.Verify(System.String,System.String)">
+            <summary>
+            Verifies a password against a hash.
+            </summary>
+            <param name="password">The password.</param>
+            <param name="hashedPassword">The hash.</param>
+            <returns>Could be verified?</returns>
+        </member>
+        <member name="M:Application.Helpers.TransactionHelper.GetTargetTypesFromTransactionType(Application.Domain.Enums.Wallet.TransactionType)">
+            <summary>
+            Get tuples
+            </summary>
+        </member>
+        <member name="M:Application.Helpers.WalletHelpers.SortWallets(System.Collections.Generic.List{Application.Domain.Models.Wallet})">
+            <summary>
+            Sort <paramref name="wallets"/> by [Hot Wallet First and Near Expired Wallet First] then return sorted wallets
+            </summary>
+        </member>
+        <member name="M:Application.Helpers.WalletHelpers.Total(System.Collections.Generic.List{Application.Domain.Models.Wallet},Application.Domain.Enums.Wallet.WalletToken)">
+            <summary>
+            Calculate total amount of <paramref name="walletToken"/> in <paramref name="wallets"/>
+            </summary>
+        </member>
+        <member name="M:Application.Services.AttributeService.GetAllAttributeGroups">
+            <summary>
+            Get all user
+            </summary>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.LevelService.GetAllLevels(Application.QueryParams.Level.LevelQueryParams)">
+            <summary>
+            Get all user
+            </summary>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.MemberService.GetAll(Application.QueryParams.Member.MemberQueryParams)">
+            <summary>
+            Get all user
+            </summary>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.MemberService.GetSelf(System.String)">
+            <summary>
+            Get self user info
+            </summary>
+            <param name="email"></param>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.MemberService.GetMemberProjectsTotalCount(System.Guid)">
+            <summary>
+            Return total joined and total managed
+            </summary>
+            <param name="memberId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Application.Services.MemberService.UpdateMember(System.String,Application.DTOs.Member.MemberUpdateDTO)">
+            <summary>
+            Update Member
+            </summary>
+            <param name="email"></param>
+            <param name="dto"></param>
+            <returns>bool if update success</returns>
+        </member>
+        <member name="M:Application.Services.ProjectMemberService.GetProjectMemberRequests(System.Guid,Application.QueryParams.ProjectMemberRequest.ProjectMemberRequestQueryParams,System.String)">
+            <summary>
+            Request to join project
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectMemberService.GetSelfProjectMemberRequest(Application.QueryParams.ProjectMemberRequest.SelfProjectMemberRequestQueryParams,System.String)">
+            <summary>
+            Request to join project
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectMemberService.RequestToJoin(System.Guid,Application.DTOs.ProjectMemberRequest.ProjectMemberRequestCreateDTO,System.String)">
+            <summary>
+            Request to join project
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectMilestoneService.GetProjectMilestone(System.Guid,Application.QueryParams.ProjectMilestone.ProjectUpdateQueryParams)">
+            <summary>
+            Create new project
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectReportService.GetProjectReport(System.Guid,System.String,System.Boolean)">
+            <summary>
+            Get specific report
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectService.CreateProject(Application.DTOs.Project.ProjectCreateDTO)">
+            <summary>
+            Create new project
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectService.UpdateProjectAsAdmin(Application.DTOs.Project.ProjectAdminUpdateDTO)">
+            <summary>
+            Update Project As Admin
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectService.GetAll(Application.QueryParams.Project.ProjectQueryParams)">
+            <summary>
+            Get all project
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectService.GetAllSelf(Application.QueryParams.Project.ProjectSelfQueryParams,System.String)">
+            <summary>
+            Get all self project (Include your private)
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectService.GetProjectById(System.Guid,System.String,System.Boolean)">
+            <summary>
+            Get project by id
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectService.GetProjectWalletById(System.Guid,System.String,System.Boolean)">
+            <summary>
+            Get project wallet
+            </summary>
+        </member>
+        <member name="M:Application.Services.ProjectSponsorService.GetAllSponsorsInProject(System.Guid,Application.QueryParams.ProjectSponsor.ProjectSponsorQueryParams,System.String,System.Boolean)">
+            <summary>
+            Get all sponsors
+            </summary>
+        </member>
+        <member name="M:Application.Services.SponsorService.GetAllSponsors(Application.QueryParams.SponsorQueryParams)">
+            <summary>
+            Get all sponsors
+            </summary>
+        </member>
+        <member name="M:Application.Services.TransactionService.GetAll(System.String,Application.QueryParams.TransactionQueryParams,Application.Domain.Enums.Wallet.TargetType,System.String,System.Boolean)">
+            <summary>
+            Get all transaction of target
+            </summary>
+            <param name="emaildOrId">target's email</param>
+            <param name="queryParams">Query Parameters</param>
+            <param name="targetType">Target's type</param>
+            <param name="requesterEmail"></param>
+            <param name="isAdmin"></param>
+            <returns>List <see cref="T:Application.Domain.Models.Transaction"/> of user</returns>
+        </member>
+        <member name="M:Application.Services.UserService.CreateNewUser(Application.DTOs.User.UserCreateDTO)">
+            <summary>
+            Create new user
+            </summary>
+            <param name="dto"></param>
+            <returns>Newly created user</returns>
+        </member>
+        <member name="M:Application.Services.UserService.Login(Application.DTOs.User.LoginDTO)">
+            <summary>
+            Check for login
+            </summary>
+            <param name="dto"></param>
+            <returns>LoginResult if success, throw if not exist</returns>
+        </member>
+        <member name="M:Application.Services.UserService.LoginWithGoogle(Application.DTOs.User.LoginGoogleDTO)">
+            <summary>
+            Check for login with google (Auto account creation)
+            </summary>
+            <param name="dto"></param>
+            <returns>LoginResult if success</returns>
+        </member>
+        <member name="M:Application.Services.UserService.GetAll(Application.QueryParams.UserQueryParams)">
+            <summary>
+            Get all user
+            </summary>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.UserService.GetSelf(System.Guid)">
+            <summary>
+            Get self user info
+            </summary>
+            <param name="userId"></param>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.VoucherService.GetAllVoucher(Application.QueryParams.Voucher.VoucherQueryParams)">
+            <summary>
+            Get all user
+            </summary>
+            <returns>User</returns>
+        </member>
+        <member name="M:Application.Services.WalletService.GetSystemWalletInfo">
+            <summary>
+            Get system's wallet info
+            </summary>
+            <returns><see cref="T:Application.DTOs.Wallet.WalletsInfoDTO"/>  of system</returns>
+            <exception cref="T:Application.Helpers.BadRequestException"/>
+        </member>
+        <member name="M:Application.Services.WalletService.GetAllWalletByTargetId(System.Guid,Application.Domain.Enums.Wallet.TargetType,System.Nullable{Application.Domain.Enums.Wallet.WalletToken},System.Boolean,System.Nullable{Application.Domain.Enums.Wallet.WalletType},System.Collections.Generic.List{System.String})">
+            <summary>
+            Get all wallets from target (Default to Get All and Available)
+            </summary>
+            <param name="targetId">Target's Id</param>
+            <param name="targetType">Target's Type</param>
+            <param name="walletToken">Token to get (Get all if null)</param>
+            <param name="withExpired">Get expired wallet also</param>
+            <param name="walletType"></param>
+            <param name="tags"></param>
+            <returns>List <see cref="T:Application.Domain.Models.Wallet"/> of user</returns>
+        </member>
+    </members>
+</doc>
