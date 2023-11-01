@@ -26,3 +26,17 @@ D:/FPTU/Projects/CSharp/CnbIncubator/Application.Domain/obj/Release/net6.0/ref/A
 /Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/obj/Release/net6.0/Application.Domain.pdb
 /Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/obj/Release/net6.0/Application.Domain.genruntimeconfig.cache
 /Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/obj/Release/net6.0/ref/Application.Domain.dll
+D:\CODE\Uni_Incubator\BE2\Application.Domain\bin\Release\net6.0\Application.Domain.deps.json
+D:\CODE\Uni_Incubator\BE2\Application.Domain\bin\Release\net6.0\Application.Domain.runtimeconfig.json
+D:\CODE\Uni_Incubator\BE2\Application.Domain\bin\Release\net6.0\Application.Domain.dll
+D:\CODE\Uni_Incubator\BE2\Application.Domain\bin\Release\net6.0\Application.Domain.pdb
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.csproj.AssemblyReference.cache
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.AssemblyInfoInputs.cache
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.AssemblyInfo.cs
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.csproj.CoreCompileInputs.cache
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.dll
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\refint\Application.Domain.dll
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.pdb
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\Application.Domain.genruntimeconfig.cache
+D:\CODE\Uni_Incubator\BE2\Application.Domain\obj\Release\net6.0\ref\Application.Domain.dll
