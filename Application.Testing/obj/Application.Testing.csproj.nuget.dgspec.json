@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/Application.Testing.csproj": {}
+    "D:\\CODE\\Uni_Incubator\\BE2\\Application.Testing\\Application.Testing.csproj": {}
   },
   "projects": {
-    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj": {
+    "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj",
+        "projectUniqueName": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj",
         "projectName": "Application.Domain",
-        "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj",
-        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
-        "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/obj/",
+        "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj",
+        "packagesPath": "C:\\Users\\M S I\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\M S I\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,34 +93,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj": {
+    "D:\\CODE\\Uni_Incubator\\BE2\\Application.Persistence\\Application.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj",
+        "projectUniqueName": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Persistence\\Application.Persistence.csproj",
         "projectName": "Application.Persistence",
-        "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj",
-        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
-        "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/obj/",
+        "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Persistence\\Application.Persistence.csproj",
+        "packagesPath": "C:\\Users\\M S I\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\M S I\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj": {
-                "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj"
+              "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj": {
+                "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj"
               }
             }
           }
@@ -150,34 +162,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/Application.Testing.csproj": {
+    "D:\\CODE\\Uni_Incubator\\BE2\\Application.Testing\\Application.Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/Application.Testing.csproj",
+        "projectUniqueName": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Testing\\Application.Testing.csproj",
         "projectName": "Application.Testing",
-        "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/Application.Testing.csproj",
-        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
-        "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Testing/obj/",
+        "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Testing\\Application.Testing.csproj",
+        "packagesPath": "C:\\Users\\M S I\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Testing\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\M S I\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj": {
-                "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj"
+              "D:\\CODE\\Uni_Incubator\\BE2\\Application\\Application.csproj": {
+                "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application\\Application.csproj"
               }
             }
           }
@@ -269,38 +287,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj": {
+    "D:\\CODE\\Uni_Incubator\\BE2\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj",
+        "projectUniqueName": "D:\\CODE\\Uni_Incubator\\BE2\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/Application.csproj",
-        "packagesPath": "/Users/nguyenduong/.nuget/packages/",
-        "outputPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application/obj/",
+        "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\M S I\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nguyenduong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\M S I\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj": {
-                "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Domain/Application.Domain.csproj"
+              "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj": {
+                "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Domain\\Application.Domain.csproj"
               },
-              "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj": {
-                "projectPath": "/Users/nguyenduong/Documents/GitHub/CnB-BE-main/Application.Persistence/Application.Persistence.csproj"
+              "D:\\CODE\\Uni_Incubator\\BE2\\Application.Persistence\\Application.Persistence.csproj": {
+                "projectPath": "D:\\CODE\\Uni_Incubator\\BE2\\Application.Persistence\\Application.Persistence.csproj"
               }
             }
           }
@@ -443,7 +466,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -43,7 +43,7 @@ app.UseCors(p => p
   .AllowCredentials()
   .WithOrigins("https://localhost:3000", "http://localhost:3000", 
       "https://uniinc-cnb.com", 
-      "http://localhost:5000", "https://localhost:5001")
+      "http://localhost:5000", "https://localhost:5001", "https://admin-incubator.reso.vn/")
 );
 
 app.UseAuthentication();
