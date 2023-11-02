@@ -37,14 +37,21 @@ app.UseHttpsRedirection();
 
 app.UseRouting();
 
+//app.UseCors(p => p
+//  .AllowAnyHeader()
+//  .AllowAnyMethod()
+//  .AllowCredentials()
+//  .WithOrigins("https://localhost:3000", "http://localhost:3000", 
+//      "https://uniinc-cnb.com",
+//      "http://localhost:5000", "https://localhost:5001", "https://admin-incubator.reso.vn")
+
+//);
+
 app.UseCors(p => p
   .AllowAnyHeader()
   .AllowAnyMethod()
-  .AllowCredentials()
   .WithOrigins("*")
-  /*https://localhost:3000", "http://localhost:3000", 
-      "https://uniinc-cnb.com",
-      "http://localhost:5000", "https://localhost:5001", "https://admin-incubator.reso.vn*/
+
 );
 
 app.UseAuthentication();
