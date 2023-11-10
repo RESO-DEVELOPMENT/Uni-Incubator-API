@@ -317,5 +317,22 @@ namespace Application.Services
             if (payslip == null) throw new NotFoundException("Phiếu lương không tồn tại!", "PAYSLIP_NOT_FOUND");
             return payslip;
         }
+
+        public async Task<Payslip> UpdatePayslipStatus(Guid payslipId)
+        {
+            var payslip = await _unitOfWork.PayslipRepository.GetPaySlipQueryFull()
+                .Where(p => p.PayslipId == payslipId)
+                .FirstOrDefaultAsync();
+
+            if (payslip == null) throw new NotFoundException("Phiếu lương không tồn tại!", "PAYSLIP_NOT_FOUND");
+
+            if(payslip.Status == PayslipStatus.Paid || payslip.Status == PayslipStatus.Cancelled) 
+                throw new BadRequestException("Trạng thái của phiếu lương không hợp lệ, không thể sửa trạng thái!", "PAYSLIP_CANNOT_UPDATE");
+
+            payslip.Status = PayslipStatus.Paid;
+            await _unitOfWork.SaveAsync();
+
+            return payslip;
+        }
     }
 }

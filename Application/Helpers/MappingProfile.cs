@@ -43,10 +43,14 @@ namespace Application.Helpers
             CreateMap<Member, MemberWithLevelDTO>()
               .ForMember(src => src.MemberLevels, opt => opt.MapFrom(u => u.MemberLevels.First()));
             // .ForMember(src => src.Role, opt => opt.MapFrom(u => u.Role.RoleId));
+
+
             CreateMap<Member, MemberDetailedWithRoleDTO>()
               .ForMember(src => src.MemberLevels, opt => opt.MapFrom(u => u.MemberLevels.First()))
 
             .ForMember(src => src.Role, opt => opt.MapFrom(x => x.User.Role));
+
+
             // .ForMember(src => src.Role, opt => opt.MapFrom(u => u.Role.RoleId));
             CreateMap<Member, MemberProjectsDTO>()
               .ForMember(src => src.TotalProjects,

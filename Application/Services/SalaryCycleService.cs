@@ -54,10 +54,10 @@ namespace Application.Services
             switch (queryParams.OrderBy)
             {
                 case SalaryCycleOrderBy.DateAsc:
-                    query = query.OrderBy(l => l.CreatedAt);
+                    query = query.OrderBy(l => l.SalaryCycleStatus).ThenBy(l => l.CreatedAt);
                     break;
                 case SalaryCycleOrderBy.DateDesc:
-                    query = query.OrderByDescending(l => l.CreatedAt);
+                    query = query.OrderByDescending(l => l.SalaryCycleStatus).ThenBy(l => l.CreatedAt);
                     break;
                 default:
                     break;
@@ -109,6 +109,9 @@ namespace Application.Services
                   {"SalaryCycleOldStatus", oldStatus.ToString()},
                   {"MemberId", requesterMember.MemberId.ToString() }
                 });
+
+                currentSalaryCycle.SalaryCycleStatus = dto.Status;
+                await _unitOfWork.SaveAsync();
             }
             catch
             {
